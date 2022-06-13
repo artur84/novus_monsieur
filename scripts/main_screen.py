@@ -2,6 +2,7 @@ import pygame as pg
 import time
 import sys
 import random
+import os
 import helper_screen as hp
 
 def get_screen_setup():
@@ -26,6 +27,7 @@ def get_screen_setup():
 
 
 def main():
+
 
     abs_path, poster_dimensions, rectangle_location, poster_time, sensors, screen =  get_screen_setup()
 
